@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Nom du projet
+project(BookManager LANGUAGES CXX)
+
+# indique la norme c++
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+#set(CMAKE_CXX_COMPILER "C:/msys64/ucrt64/bin/g++.exe")
+set(ASIO_INCLUDE_DIR "C:/msys64/ucrt64/include")
+
+
+
+
+# Ajouter la librairie Crow depuis le dossier ./libs/
+add_subdirectory(libs/Crow)  # Chemin vers le dossier Crow
+
+
+# SQLite3
+find_package(SQLite3 REQUIRED)
+include_directories(${SQLite3_INCLUDE_DIRS})
+
+# Inclure les fichiers du projet
+add_executable(BookManager ./src/main.cpp
+                               ./src/controllers/BookController.cpp
+                               ./src/models/Book.cpp
+                               ./src/utils/Connections.cpp
+                               ./includes/Routes/route.hpp)
+
+                               
+# Lier Crow et SQLite3 avec l'exécutable
+target_link_libraries(BookManager PRIVATE Crow::Crow sqlite3 Ws2_32)
+
+
