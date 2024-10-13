@@ -16,6 +16,7 @@
 
 find_package(Threads QUIET)
 if (Threads_FOUND)
+  set(ASIO_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs/asio/asio/include")
   find_path(ASIO_INCLUDE_DIR asio.hpp)
 
   mark_as_advanced(ASIO_FOUND ASIO_INCLUDE_DIR)

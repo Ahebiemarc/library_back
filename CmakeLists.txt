@@ -3,32 +3,33 @@ cmake_minimum_required(VERSION 3.10)
 # Nom du projet
 project(BookManager LANGUAGES CXX)
 
-# indique la norme c++
+# Indique la norme C++
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-#set(CMAKE_CXX_COMPILER "C:/msys64/ucrt64/bin/g++.exe")
-set(ASIO_INCLUDE_DIR "C:/msys64/ucrt64/include")
-
-
-
 
 # Ajouter la librairie Crow depuis le dossier ./libs/
-add_subdirectory(libs/Crow)  # Chemin vers le dossier Crow
+add_subdirectory(libs/Crow)
 
-
-# SQLite3
+# Ajout des bibliothèques requises : SQLite3
 find_package(SQLite3 REQUIRED)
+
+# Chemin vers Asio
+set(ASIO_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs/asio/asio/include")
+include_directories(${ASIO_INCLUDE_DIR})
+
+# Définit la version minimale de Windows comme Windows 10 (0x0A00)
+add_definitions(-D_WIN32_WINNT=0x0A00)
+
+# Inclure les répertoires nécessaires
 include_directories(${SQLite3_INCLUDE_DIRS})
+include_directories(${CMAKE_SOURCE_DIR}/includes/json)
 
-# Inclure les fichiers du projet
+# Fichiers sources du projet
 add_executable(BookManager ./src/main.cpp
-                               ./src/controllers/BookController.cpp
-                               ./src/models/Book.cpp
-                               ./src/utils/Connections.cpp
-                               ./includes/Routes/route.hpp)
+                           ./src/controllers/BookController.cpp
+                           ./src/models/Book.cpp
+                           ./src/utils/Connections.cpp
+                           ./includes/Routes/route.hpp)
 
-                               
-# Lier Crow et SQLite3 avec l'exécutable
-target_link_libraries(BookManager PRIVATE Crow::Crow sqlite3 Ws2_32)
-
-
+# Lier Crow, SQLite3, Winsock et Mswsock avec l'exécutable
+target_link_libraries(BookManager PRIVATE Crow::Crow sqlite3 Ws2_32 Mswsock)
