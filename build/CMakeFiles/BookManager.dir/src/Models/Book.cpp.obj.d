@@ -114,12 +114,13 @@ CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h \
- C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
+ C:/msys64/ucrt64/include/c++/14.2.0/optional \
  C:/msys64/ucrt64/include/c++/14.2.0/exception \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h \
  C:/Users/markus/Desktop/Archic/BookManager/libs/Crow/include/crow.h \
  C:/Users/markus/Desktop/Archic/BookManager/libs/Crow/include/crow/query_string.h \
  C:/msys64/ucrt64/include/string.h \
@@ -128,7 +129,6 @@ CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_map.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable_policy.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/ostream \
  C:/msys64/ucrt64/include/c++/14.2.0/ios \
@@ -152,6 +152,7 @@ CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/system_error \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
  C:/msys64/ucrt64/include/c++/14.2.0/streambuf \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h \

@@ -206,6 +206,30 @@ uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f libs\Crow\CMakeFiles\uninstall.dir\build.make libs/Crow/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/Handler/routeHandler.obj: src/Handler/routeHandler.cpp.obj
+.PHONY : src/Handler/routeHandler.obj
+
+# target to build an object file
+src/Handler/routeHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj
+.PHONY : src/Handler/routeHandler.cpp.obj
+
+src/Handler/routeHandler.i: src/Handler/routeHandler.cpp.i
+.PHONY : src/Handler/routeHandler.i
+
+# target to preprocess a source file
+src/Handler/routeHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.i
+.PHONY : src/Handler/routeHandler.cpp.i
+
+src/Handler/routeHandler.s: src/Handler/routeHandler.cpp.s
+.PHONY : src/Handler/routeHandler.s
+
+# target to generate assembly for a file
+src/Handler/routeHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.s
+.PHONY : src/Handler/routeHandler.cpp.s
+
 src/Models/Book.obj: src/Models/Book.cpp.obj
 .PHONY : src/Models/Book.obj
 
@@ -254,6 +278,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/routes/routes.obj: src/routes/routes.cpp.obj
+.PHONY : src/routes/routes.obj
+
+# target to build an object file
+src/routes/routes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj
+.PHONY : src/routes/routes.cpp.obj
+
+src/routes/routes.i: src/routes/routes.cpp.i
+.PHONY : src/routes/routes.i
+
+# target to preprocess a source file
+src/routes/routes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.i
+.PHONY : src/routes/routes.cpp.i
+
+src/routes/routes.s: src/routes/routes.cpp.s
+.PHONY : src/routes/routes.s
+
+# target to generate assembly for a file
+src/routes/routes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.s
+.PHONY : src/routes/routes.cpp.s
+
 src/utils/Connections.obj: src/utils/Connections.cpp.obj
 .PHONY : src/utils/Connections.obj
 
@@ -294,12 +342,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... BookManager
+	@echo ... src/Handler/routeHandler.obj
+	@echo ... src/Handler/routeHandler.i
+	@echo ... src/Handler/routeHandler.s
 	@echo ... src/Models/Book.obj
 	@echo ... src/Models/Book.i
 	@echo ... src/Models/Book.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/routes/routes.obj
+	@echo ... src/routes/routes.i
+	@echo ... src/routes/routes.s
 	@echo ... src/utils/Connections.obj
 	@echo ... src/utils/Connections.i
 	@echo ... src/utils/Connections.s
