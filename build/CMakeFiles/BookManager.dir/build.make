@@ -83,26 +83,11 @@ CMakeFiles/BookManager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BookManager.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\markus\Desktop\Archic\BookManager\src\main.cpp -o CMakeFiles\BookManager.dir\src\main.cpp.s
 
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj: CMakeFiles/BookManager.dir/flags.make
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj: CMakeFiles/BookManager.dir/includes_CXX.rsp
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj: C:/Users/markus/Desktop/Archic/BookManager/src/routes/routes.cpp
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj: CMakeFiles/BookManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj -MF CMakeFiles\BookManager.dir\src\routes\routes.cpp.obj.d -o CMakeFiles\BookManager.dir\src\routes\routes.cpp.obj -c C:\Users\markus\Desktop\Archic\BookManager\src\routes\routes.cpp
-
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BookManager.dir/src/routes/routes.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\markus\Desktop\Archic\BookManager\src\routes\routes.cpp > CMakeFiles\BookManager.dir\src\routes\routes.cpp.i
-
-CMakeFiles/BookManager.dir/src/routes/routes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BookManager.dir/src/routes/routes.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\markus\Desktop\Archic\BookManager\src\routes\routes.cpp -o CMakeFiles\BookManager.dir\src\routes\routes.cpp.s
-
 CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj: CMakeFiles/BookManager.dir/flags.make
 CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj: CMakeFiles/BookManager.dir/includes_CXX.rsp
 CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj: C:/Users/markus/Desktop/Archic/BookManager/src/Handler/routeHandler.cpp
 CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj: CMakeFiles/BookManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj -MF CMakeFiles\BookManager.dir\src\Handler\routeHandler.cpp.obj.d -o CMakeFiles\BookManager.dir\src\Handler\routeHandler.cpp.obj -c C:\Users\markus\Desktop\Archic\BookManager\src\Handler\routeHandler.cpp
 
 CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: CMakeFiles/BookManager.dir/f
 CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: CMakeFiles/BookManager.dir/includes_CXX.rsp
 CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: C:/Users/markus/Desktop/Archic/BookManager/src/Models/Book.cpp
 CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj: CMakeFiles/BookManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj -MF CMakeFiles\BookManager.dir\src\Models\Book.cpp.obj.d -o CMakeFiles\BookManager.dir\src\Models\Book.cpp.obj -c C:\Users\markus\Desktop\Archic\BookManager\src\Models\Book.cpp
 
 CMakeFiles/BookManager.dir/src/Models/Book.cpp.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj: CMakeFiles/BookManager
 CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj: CMakeFiles/BookManager.dir/includes_CXX.rsp
 CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj: C:/Users/markus/Desktop/Archic/BookManager/src/utils/Connections.cpp
 CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj: CMakeFiles/BookManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj -MF CMakeFiles\BookManager.dir\src\utils\Connections.cpp.obj.d -o CMakeFiles\BookManager.dir\src\utils\Connections.cpp.obj -c C:\Users\markus\Desktop\Archic\BookManager\src\utils\Connections.cpp
 
 CMakeFiles/BookManager.dir/src/utils/Connections.cpp.i: cmake_force
@@ -146,7 +131,6 @@ CMakeFiles/BookManager.dir/src/utils/Connections.cpp.s: cmake_force
 # Object files for target BookManager
 BookManager_OBJECTS = \
 "CMakeFiles/BookManager.dir/src/main.cpp.obj" \
-"CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj" \
 "CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj" \
 "CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj" \
 "CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj"
@@ -155,7 +139,6 @@ BookManager_OBJECTS = \
 BookManager_EXTERNAL_OBJECTS =
 
 BookManager.exe: CMakeFiles/BookManager.dir/src/main.cpp.obj
-BookManager.exe: CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj
 BookManager.exe: CMakeFiles/BookManager.dir/src/Handler/routeHandler.cpp.obj
 BookManager.exe: CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj
 BookManager.exe: CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj
@@ -163,7 +146,7 @@ BookManager.exe: CMakeFiles/BookManager.dir/build.make
 BookManager.exe: CMakeFiles/BookManager.dir/linkLibs.rsp
 BookManager.exe: CMakeFiles/BookManager.dir/objects1.rsp
 BookManager.exe: CMakeFiles/BookManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BookManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\markus\Desktop\Archic\BookManager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable BookManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BookManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,8 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/BookManager.dir/src/Models/Book.cpp.obj.d"
   "CMakeFiles/BookManager.dir/src/main.cpp.obj"
   "CMakeFiles/BookManager.dir/src/main.cpp.obj.d"
-  "CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj"
-  "CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj.d"
   "CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj"
   "CMakeFiles/BookManager.dir/src/utils/Connections.cpp.obj.d"
   "libBookManager.dll.a"

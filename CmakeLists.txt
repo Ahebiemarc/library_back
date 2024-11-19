@@ -22,14 +22,14 @@ add_definitions(-D_WIN32_WINNT=0x0A00)
 
 # Inclure les répertoires nécessaires
 include_directories(${SQLite3_INCLUDE_DIRS})
-include_directories(${CMAKE_SOURCE_DIR}/includes/json)
 
 # Fichiers sources du projet
 add_executable(BookManager ./src/main.cpp
-                           ./src/controllers/BookController.cpp
+                           ./src/Handler/routeHandler.cpp
                            ./src/models/Book.cpp
                            ./src/utils/Connections.cpp
-                           ./includes/Routes/route.hpp)
+                           ./includes/Routes/route.hpp  
+                           )
 
 # Lier Crow, SQLite3, Winsock et Mswsock avec l'exécutable
 target_link_libraries(BookManager PRIVATE Crow::Crow sqlite3 Ws2_32 Mswsock)

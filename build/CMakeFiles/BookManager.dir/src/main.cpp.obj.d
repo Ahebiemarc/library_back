@@ -1031,8 +1031,11 @@ CMakeFiles/BookManager.dir/src/main.cpp.obj: \
  C:/Users/markus/Desktop/Archic/BookManager/libs/Crow/include/crow/app.h \
  C:/msys64/ucrt64/include/c++/14.2.0/thread \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/this_thread_sleep.h \
+ C:/Users/markus/Desktop/Archic/BookManager/libs/Crow/include/crow/middlewares/cors.h \
  C:/Users/markus/Desktop/Archic/BookManager/includes/Connections.hpp \
  C:/msys64/ucrt64/include/sqlite3.h \
  C:/msys64/ucrt64/include/c++/14.2.0/optional \
  C:/Users/markus/Desktop/Archic/BookManager/includes/Routes/route.hpp \
+ C:/Users/markus/Desktop/Archic/BookManager/includes/Connections.hpp \
+ C:/Users/markus/Desktop/Archic/BookManager/includes/Handler/routeHandler.hpp \
  C:/Users/markus/Desktop/Archic/BookManager/includes/Connections.hpp

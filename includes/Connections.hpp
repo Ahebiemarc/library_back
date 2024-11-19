@@ -4,14 +4,21 @@
 
 #include <sqlite3.h>
 #include <string>
+#include <vector>
+#include <map>
+#include <optional>
+#include "crow.h"
+
 
 class Connections {
     public:
         Connections(const std::string& dbName);
-        ~Connections();
+        //~Connections();
 
-        sqlite3* getDB() const;
-        void execute(const std::string& query);
+        sqlite3* getDB() ;
+        void execute(const std::string& query, const std::vector<std::string>& params);
+        std::optional<std::string> getBookStatus(int BookID);
+        crow::json::wvalue select(const std::string& query);
         void createBooksTable();
     
     private:

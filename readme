@@ -1,0 +1,6 @@
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" .. // generated build cmake files
+cmake --build . or cmake --build . --clean-first
+./BookManager.exe .\BookManager.exe
+

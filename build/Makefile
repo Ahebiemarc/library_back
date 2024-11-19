@@ -278,30 +278,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/routes/routes.obj: src/routes/routes.cpp.obj
-.PHONY : src/routes/routes.obj
-
-# target to build an object file
-src/routes/routes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.obj
-.PHONY : src/routes/routes.cpp.obj
-
-src/routes/routes.i: src/routes/routes.cpp.i
-.PHONY : src/routes/routes.i
-
-# target to preprocess a source file
-src/routes/routes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.i
-.PHONY : src/routes/routes.cpp.i
-
-src/routes/routes.s: src/routes/routes.cpp.s
-.PHONY : src/routes/routes.s
-
-# target to generate assembly for a file
-src/routes/routes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookManager.dir\build.make CMakeFiles/BookManager.dir/src/routes/routes.cpp.s
-.PHONY : src/routes/routes.cpp.s
-
 src/utils/Connections.obj: src/utils/Connections.cpp.obj
 .PHONY : src/utils/Connections.obj
 
@@ -351,9 +327,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/routes/routes.obj
-	@echo ... src/routes/routes.i
-	@echo ... src/routes/routes.s
 	@echo ... src/utils/Connections.obj
 	@echo ... src/utils/Connections.i
 	@echo ... src/utils/Connections.s

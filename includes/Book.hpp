@@ -22,10 +22,6 @@ class Book{
         void setStatus(const std::string& status);
 
         // Méthodes de gestion des livres
-        bool saveToDatabase(Connections& cnn);
-        bool updateStatus(Connections& cnn);
-        static Book findById(Connections& cnn, int id);
-        static std::vector<Book> getAllBooks(Connections& cnn);
     
     private:
         int _id;
